@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
 * {
   box-sizing: border-box;
 }
-
+/*Navbar*/
 .Nav {
   display: flex;
   justify-content: space-between;
@@ -12,6 +14,7 @@
   padding: 10px;
   background-color: #dcf2f9;
   color: #13376c;
+  font-family: 'Manrope', sans-serif;
 }
 
 .Nav a {
@@ -20,6 +23,7 @@
 
 .Nav li {
   list-style-type: none;
+  font-family: 'Manrope', sans-serif;
 }
 
 .Nav-right ul {
@@ -39,9 +43,35 @@
   font-family: 'Montserrat', sans-serif;
   border-style: solid;
   border-color: #13376c;
-
+}
+.Logo {
+  font-family: 'Manrope', sans-serif;
 }
 
+/*Hero search section*/
+.Header-search {
+  text-align: center;
+  color: #13376c;
+  font-weight: 1200;
+  font-family: 'Manrope', sans-serif;
+  margin: 0%;
+}
+.Hero-search {
+  margin: 0%;
+  background-color: #dcf2f9;
+}
+.Intro-search {
+  margin-left: 140px;
+  color: #13376c;
+  font-family: 'Manrope', sans-serif;
+}
+
+.Search-box {
+  width: 70vw;
+  padding: 5px;
+  border-radius: 12px;
+  font-family: 'Manrope', sans-serif;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
