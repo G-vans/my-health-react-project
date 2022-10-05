@@ -1,5 +1,45 @@
-.App {
+* {
+  box-sizing: border-box;
+}
+
+.Nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  padding-bottom: 5px;
+  width: 100vw;
+  padding: 10px;
+  background-color: #dcf2f9;
+  color: #13376c;
+}
+
+.Nav a {
+  text-decoration: none;
+}
+
+.Nav li {
+  list-style-type: none;
+}
+
+.Nav-right ul {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.Btn-navbar {
+  background-color: #dcf2f9;
+  color: #13376c;
+  border-radius: 25px;
+  padding: 4px;
+  width: 80px;
   text-align: center;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  border-style: solid;
+  border-color: #13376c;
+
 }
 
 .App-logo {
@@ -32,6 +72,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
