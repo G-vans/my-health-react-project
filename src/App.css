@@ -40,7 +40,7 @@
   width: 80px;
   text-align: center;
   text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Manrope', sans-serif;
   border-style: solid;
   border-color: #13376c;
 }
@@ -68,9 +68,48 @@
 
 .Search-box {
   width: 70vw;
-  padding: 5px;
+  padding: 8px;
   border-radius: 12px;
   font-family: 'Manrope', sans-serif;
+}
+
+/*form*/
+.Add-form {
+  font-family: 'Manrope', sans-serif;
+}
+
+.Add-form input {
+  padding: 8px;
+  border-radius: 4px;
+  margin: 2px;
+  border-color: #e2d2d2;
+}
+
+.Add-form select {
+  padding: 8px;
+  border-radius: 4px;
+  margin: 2px;
+  border-color: #e2d2d2;
+  background-color: #fff;
+}
+
+.Btn-form {
+  color: #13376c;
+  border-radius: 25px;
+  padding: 4px;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Manrope', sans-serif;
+  border-style: solid;
+  border-color: #13376c;
+  margin: 10px;
+}
+
+/*list section*/
+.Header-search p {
+  color: #212121;
+  font-size: 16px;
 }
 .App-logo {
   height: 40vmin;
