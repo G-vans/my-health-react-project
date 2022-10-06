@@ -7,13 +7,14 @@ import Drugslist from './Drugslist';
 import AddMedicationform from './AddMedicationform';
 import Medicationlist from './Medicationlist';
 
-function App() {
+function App({medications}) {
   return (
     <div>
     <Navbar />
     <Search />
     <AddMedicationform />
-    <Medicationlist />
+    <Medicationlist 
+    medications={medications}/>
     </div>
   );
 }

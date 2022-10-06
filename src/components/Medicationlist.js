@@ -1,6 +1,16 @@
-import React, {useState, useEffect} from "react";
-function Medicationlist() { 
-    
+import React, { useState, useEffect } from "react";
+import Medication from "./Medication";
+
+
+function Medicationlist() {
+    const [medications, setMedications] = useState([]);
+    useEffect(() => {
+        fetch('http://localhost:3001/medications')
+            .then((response) => response.json())
+            .then((medics) => setMedications(medics))
+            .catch((err) => console.log(err));
+    }, []);
+
     return (
         <table className="Table-list">
             <tbody className="Table-body">
@@ -21,9 +31,14 @@ function Medicationlist() {
                         <h3>Savings</h3>
                     </th>
                 </tr>
-                <td>
-                    <p>one</p>
-                </td>
+                {medications.map((medication, idx) => {
+                    return (
+                        <Medication
+                            key={medication.id}
+                            medication={medication}
+                        />
+                    );
+                })}
             </tbody>
         </table>
     )
