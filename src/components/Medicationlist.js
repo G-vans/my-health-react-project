@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Medication from "./Medication";
 
 
-function Medicationlist() {
+function Medicationlist({handleAddItem}) {
     const [medications, setMedications] = useState([]);
     useEffect(() => {
         fetch('http://localhost:3001/medications')
@@ -10,6 +10,10 @@ function Medicationlist() {
             .then((medics) => setMedications(medics))
             .catch((err) => console.log(err));
     }, []);
+
+    function handleAddItem(newItem) {
+        setMedications([...medications, newItem]);
+      }
 
     return (
         <table className="Table-list">
