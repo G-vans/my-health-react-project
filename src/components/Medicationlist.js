@@ -22,13 +22,13 @@ function Medicationlist() {
                         <h3>Form</h3>
                     </th>
                     <th>
-                        <h3>Retail Price</h3>
+                        <h3>Retail Price($)</h3>
                     </th>
                     <th>
-                        <h3>Our Price</h3>
+                        <h3>Our Price($)</h3>
                     </th>
                     <th>
-                        <h3>Savings</h3>
+                        <h3>Savings($)</h3>
                     </th>
                 </tr>
                 {medications.map((medication, idx) => {
