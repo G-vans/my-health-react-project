@@ -7,7 +7,7 @@ function Home() {
             <h1>WELCOME TO MY-HEALTH DRUGS PLATFORM</h1>
             <h3>Your platform for affordable medication</h3>
             <img src={image} /><img src={image} /> <img src={image} />
-            <h1>Click on the Medications and Doctors links and refresh to view other pages</h1>
+            {/* <h1>Click on the Medications and Doctors links and refresh to view other pages</h1> */}
 
 
         </div>
