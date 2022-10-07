@@ -1,11 +1,13 @@
 import React from "react";
-import Navbar from "./Navbar";
+import Search from "./Search";
+import AddMedicationform from "./AddMedicationform";
 import Medicationlist from "./Medicationlist";
 
 function Drugslist() {
     return (
         <div>
-        <Navbar />
+        <Search />
+        <AddMedicationform />
         <Medicationlist />
         </div>
     )
