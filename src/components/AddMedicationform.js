@@ -17,7 +17,7 @@ function AddMedicationform({onAddItem}) {
             savings: savings,
         };
 
-        fetch("http://localhost:3001/medications", {
+        fetch("https://medicationsapi.herokuapp.com/medications", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

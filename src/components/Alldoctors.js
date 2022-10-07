@@ -5,7 +5,7 @@ import Doctors from "./Doctors";
 function Alldoctors({handleAddItem}) {
     const [doctors, setDoctors] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:3001/doctors')
+        fetch('https://medicationsapi.herokuapp.com/doctors')
             .then((response) => response.json())
             .then((docs) => setDoctors(docs))
             .catch((err) => console.log(err));

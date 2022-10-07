@@ -5,7 +5,7 @@ import Medication from "./Medication";
 function Medicationlist({handleAddItem}) {
     const [medications, setMedications] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:3001/medications')
+        fetch('https://medicationsapi.herokuapp.com/medications')
             .then((response) => response.json())
             .then((medics) => setMedications(medics))
             .catch((err) => console.log(err));
@@ -48,7 +48,11 @@ function Medicationlist({handleAddItem}) {
                 })}
             </tbody>
         </table>
+
+        
     )
+
+    
 }
 
 export default Medicationlist;

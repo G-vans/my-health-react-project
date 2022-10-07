@@ -1,5 +1,5 @@
 import image from '../images/drug2.png';
-import image2 from '../images/drug1.png';
+// import image2 from '../images/drug1.png';
 
 function Home() {
     return (
