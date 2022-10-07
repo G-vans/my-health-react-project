@@ -9,6 +9,8 @@ function Medicationlist({handleAddItem}) {
             .then((response) => response.json())
             .then((medics) => setMedications(medics))
             .catch((err) => console.log(err));
+
+            return () => console.log('cleanup');
     }, []);
 
     function handleAddItem(newItem) {
