@@ -16,7 +16,9 @@ function Alldoctors({handleAddItem}) {
     //   }
 
     return (
+        
         <table className="Table-list">
+            <h2 className="Header-search">ALL DOCTORS</h2>
             <tbody className="Table-body">
                 <tr>
                     <th>
