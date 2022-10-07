@@ -18,11 +18,11 @@
 ## Preview
 ![Home page](https://github.com/G-vans/my-health-react-project/blob/main/src/images/homepage.png)
 
+## Click on the Medications link on the navbar to view
+![Medications page](https://github.com/G-vans/my-health-react-project/blob/main/src/images/medications.png)
 
-![Medications page-Click on the Medications link on the navbar to view](https://github.com/G-vans/my-health-react-project/blob/main/src/images/medications.png)
-
-
-![Doctors page-Click on the Doctors link on the navbar to view](https://github.com/G-vans/my-health-react-project/blob/main/src/images/doctors.png)
+## Click on the Doctors link on the navbar to view
+![Doctors page](https://github.com/G-vans/my-health-react-project/blob/main/src/images/doctors.png)
 
 ## Setup
 
