@@ -2,11 +2,9 @@
 import React from 'react';
 import '../App.css';
 import Navbar from './Navbar';
-import Search from './Search';
 import Drugslist from './Drugslist';
-import AddMedicationform from './AddMedicationform';
-import Medicationlist from './Medicationlist';
 import Alldoctors from './Alldoctors';
+import Home from './Home';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
@@ -14,11 +12,10 @@ function App() {
     <Router>
       <div>
         <Navbar />
-        <Search />
-        <AddMedicationform />
+        <Home />
         <Switch>
-          <Route exact path='/'>
-            <Medicationlist />
+          <Route exact path='/medications'>
+            <Drugslist />
           </Route>
           <Route path='/doctors'>
             <Alldoctors />
