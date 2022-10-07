@@ -28,6 +28,12 @@ function Alldoctors({handleAddItem}) {
                     <th>
                         <h3>Contact</h3>
                     </th>
+                    <th>
+                        <h3>Speciality</h3>
+                    </th>
+                    <th>
+                        <h3>Status</h3>
+                    </th>
                 </tr>
                 {doctors.map((doctor, idx) => {
                     return (
