@@ -17,6 +17,7 @@ function Medicationlist({handleAddItem}) {
 
     return (
         <table className="Table-list">
+            <h2 className="Header-search">ALL MEDICATIONS</h2>
             <tbody className="Table-body">
                 <tr>
                     <th>
