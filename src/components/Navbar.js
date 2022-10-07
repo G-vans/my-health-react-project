@@ -12,9 +12,9 @@ export default function Navbar() {
             </div>
             <div className='Nav-right'>
                 <ul>
-                    <li><a href='./'>For Providers</a></li>
-                    <li><a href='./'>Medications</a></li>
-                    <li><a href='./'>Contact Doctors</a></li>
+                    <li><a href=''>For Providers</a></li>
+                    <li><a href='/'>Medications</a></li>
+                    <li><a href='/doctors'>Contact Doctors</a></li>
                     <li>
                         <button className="Btn-navbar" ><a href='./'>Sign Up</a></button>
                     </li>
