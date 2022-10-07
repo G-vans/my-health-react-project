@@ -7,17 +7,25 @@ import Drugslist from './Drugslist';
 import AddMedicationform from './AddMedicationform';
 import Medicationlist from './Medicationlist';
 import Alldoctors from './Alldoctors';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-function App({medications}) {
+function App() {
   return (
-    <div>
-    <Navbar />
-    <Search />
-    <AddMedicationform />
-    <Medicationlist 
-    medications={medications}/>
-    <Alldoctors />
-    </div>
+    <Router>
+      <div>
+        <Navbar />
+        <Search />
+        <AddMedicationform />
+        <Switch>
+          <Route exact path='/'>
+            <Medicationlist />
+          </Route>
+          <Route path='/doctors'>
+            <Alldoctors />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
