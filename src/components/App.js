@@ -6,6 +6,7 @@ import Search from './Search';
 import Drugslist from './Drugslist';
 import AddMedicationform from './AddMedicationform';
 import Medicationlist from './Medicationlist';
+import Alldoctors from './Alldoctors';
 
 function App({medications}) {
   return (
@@ -15,6 +16,7 @@ function App({medications}) {
     <AddMedicationform />
     <Medicationlist 
     medications={medications}/>
+    <Alldoctors />
     </div>
   );
 }
