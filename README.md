@@ -16,24 +16,27 @@
 <p>This is a platform for accessing affordable and cheaper medication drugs.</p>
 
 ## Preview
-![Home page](https://github.com/G-vans/Property-Analytics-Phase-1/blob/main/assets/images/Screenshot-4.png)
+![Home page](https://github.com/G-vans/my-health-react-project/blob/main/src/images/homepage.png)
 
 
-![Medications page](https://github.com/G-vans/Property-Analytics-Phase-1/blob/main/assets/images/Screenshot-5.png)
+![Medications page-Click on the Medications link on the navbar to view](https://github.com/G-vans/my-health-react-project/blob/main/src/images/medications.png)
 
 
-![Doctors page](https://github.com/G-vans/Property-Analytics-Phase-1/blob/main/assets/images/Screenshot-5.png)
+![Doctors page-Click on the Doctors link on the navbar to view](https://github.com/G-vans/my-health-react-project/blob/main/src/images/doctors.png)
 
 ## Setup
 
 The base URL for your API will be
-[https://datausa.io/api/data?measures=Population](https://datausa.io/api/data?measures=Population).
+[https://medicationsapi.herokuapp.com](https://medicationsapi.herokuapp.com).
 
-The API shared above will just provide a brief detail on the population of USA over the years, going back to 2013.
+The backend API is created via JSON server and deployed on Heroku app. 
 
-To view sample data, click on `Click to View Sample Data` button at the button of the page then scroll down to view the sample data.
+There are two resources in the API
 
-Click on `Click to Hide Sample Data` button to hide the data section
+[https://medicationsapi.herokuapp.com/medications](https://medicationsapi.herokuapp.com/medications).
+
+[https://medicationsapi.herokuapp.com/doctors](https://medicationsapi.herokuapp.com/doctors)
+
 
 ### Requirements
 
@@ -48,7 +51,9 @@ Click on `Click to Hide Sample Data` button to hide the data section
 
 * JavaScript - this was used for event listeners and fetch data from the api
 
-[Go Back to the top](#Property_Analytics)
+* REACT - Context API for state management
+
+[Go Back to the top](#MY_HEALTH_REACT_PROJECT)
 
 ## Licence
 
@@ -74,11 +79,11 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[Go Back to the top](#Property_Analytics)
+[Go Back to the top](#MY_HEALTH_REACT_PROJECT)
 
 ## Authors Info
 Twitter - [Jevans Otieno](https://twitter.com/Oya_ni_gee)
 
 Github - [Jevans Otieno](https://github.com/G-vans)
 
-[Go Back to the top](#Property_Analytics)
+[Go Back to the top](#MY_HEALTH_REACT_PROJECT)
